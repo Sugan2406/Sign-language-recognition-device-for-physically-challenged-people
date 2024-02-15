@@ -10,7 +10,7 @@ create a comprehensive communication solution. The primary objective of this dev
 bridge the communication gap and promote inclusivity by offering real-time American Sign
 Language (ASL) gesture recognition, providing both visual and audio feedback
 simultaneously.
-**System Design****
+**System Design**
 The design and programming methodologies for the hand gesture recognition system using
 MediaPipe and OpenCV on a Raspberry Pi can be categorized into the following key stages:
 **1. Data Acquisition and Preprocessing:**
