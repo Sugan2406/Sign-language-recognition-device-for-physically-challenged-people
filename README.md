@@ -1,4 +1,4 @@
-# sign-language-recognition-device-for-physically-challenged-people
+# sign-language-recognition-device-for-physically-challenged
 
 Sign language detector with Python, OpenCV and Mediapipe !
 
