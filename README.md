@@ -12,6 +12,7 @@ Language (ASL) gesture recognition, providing both visual and audio feedback
 simultaneously.
 
 **System Design**
+
 The design and programming methodologies for the hand gesture recognition system using
 MediaPipe and OpenCV on a Raspberry Pi can be categorized into the following key stages:
 
@@ -24,6 +25,7 @@ real-time hand gestures from the Raspberry Pi's camera.
 conversion, and noise reduction, to prepare the captured images for further analysis.
 
 **2. Feature Extraction and Representation:**
+
 ● Extract relevant features from the preprocessed images, such as fingertip positions,
 angles between fingers, and hand orientation.
 
@@ -31,14 +33,18 @@ angles between fingers, and hand orientation.
 facilitate machine learning algorithms.
 
 **3. Model Training and Selection:**
+
 ● Divide the collected dataset of labeled hand gesture images into training and testing
 sets.
+
 ● Train a machine learning model, such as Support Vector Machines (SVMs), Random
 Forests, or Neural Networks, using the training data.
+
 ● Evaluate the trained model's performance on the testing data to select the model with
 the highest accuracy and generalisation ability.
 
 **4. Sign Language Recognition and Output:**
+
 ● Integrate the selected machine learning model into the application to classify the
 captured hand gestures in real time.
 
@@ -49,6 +55,7 @@ words.
 using a text-to-speech (TTS) engine.
 
 **5. Integration and Optimization:**
+
 ● Integrate the Gesture Capture Module, Image Preprocessing Module, Training and
 Testing Module, Sign Language Recognition Module, and Speech Output Module into
 a cohesive application.
@@ -70,6 +77,7 @@ d. Resource Management: Manage system resources effectively to prevent
 performance bottlenecks and maintain responsiveness.
 
 **6. Testing and Deployment:**
+
 a. Unit Testing: Perform unit testing for each module to ensure individual components
 function correctly.
 
@@ -87,6 +95,7 @@ e. User Feedback: Gather feedback from users to identify areas for improvement a
 refine the application's usability and effectiveness
 
 **Requirements Specification**
+
 3.1 Hardware Requirements
 
 ● Raspberry Pi Model 4
