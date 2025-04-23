@@ -10,19 +10,23 @@ create a comprehensive communication solution. The primary objective of this dev
 bridge the communication gap and promote inclusivity by offering real-time American Sign
 Language (ASL) gesture recognition, providing both visual and audio feedback
 simultaneously.
+
 **System Design**
 The design and programming methodologies for the hand gesture recognition system using
 MediaPipe and OpenCV on a Raspberry Pi can be categorized into the following key stages:
+
 **1. Data Acquisition and Preprocessing:**
 ● Employ MediaPipe's hand detection and landmark estimation capabilities to capture
 real-time hand gestures from the Raspberry Pi's camera.
 ● Utilize OpenCV's image processing techniques, such as resizing, color space
 conversion, and noise reduction, to prepare the captured images for further analysis.
+
 **2. Feature Extraction and Representation:**
 ● Extract relevant features from the preprocessed images, such as fingertip positions,
 angles between fingers, and hand orientation.
 ● Represent the extracted features in a suitable format, such as vectors or matrices, to
 facilitate machine learning algorithms.
+
 **3. Model Training and Selection:**
 ● Divide the collected dataset of labeled hand gesture images into training and testing
 sets.
@@ -30,6 +34,7 @@ sets.
 Forests, or Neural Networks, using the training data.
 ● Evaluate the trained model's performance on the testing data to select the model with
 the highest accuracy and generalisation ability.
+
 **4. Sign Language Recognition and Output:**
 ● Integrate the selected machine learning model into the application to classify the
 captured hand gestures in real time.
@@ -37,6 +42,7 @@ captured hand gestures in real time.
 words.
 ● Convert the recognized sign language symbols or words into text and audio output
 using a text-to-speech (TTS) engine.
+
 **5. Integration and Optimization:**
 ● Integrate the Gesture Capture Module, Image Preprocessing Module, Training and
 Testing Module, Sign Language Recognition Module, and Speech Output Module into
@@ -52,6 +58,7 @@ iii. Data Caching: Cache frequently accessed data, such as sign language mapping
 minimize repeated computations.
 d. Resource Management: Manage system resources effectively to prevent
 performance bottlenecks and maintain responsiveness.
+
 **6. Testing and Deployment:**
 a. Unit Testing: Perform unit testing for each module to ensure individual components
 function correctly.
@@ -64,6 +71,7 @@ d. Deployment: Deploy the application onto the Raspberry Pi and ensure it functi
 correctly in the target environment.
 e. User Feedback: Gather feedback from users to identify areas for improvement and
 refine the application's usability and effectiveness
+
 **Requirements Specification**
 3.1 Hardware Requirements
 ● Raspberry Pi Model 4
